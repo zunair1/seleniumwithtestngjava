@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="LoginTestCases">
+  <groups>
+  	<run>
+  		<include name="Regression" />
+  	</run>
+  </groups>
+    <classes>
+      <class name="MicroAccountingAutomation.Test.LoginTestCases"/>
+      
+    </classes>
+  </test>
+  
+  <test name="SignUpTestCases">
+  <groups>
+  	<run>
+  		<include name="Regression" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.SignUpTestCases"/>
+  	</classes>
+  </test>
+  
+    <test name="ListAllCsvsTestCases">
+    <groups>
+  	<run>
+  		<include name="Regression" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.ListAllCsvsTestCase"/>
+  	</classes>
+  </test>
+  <test name="updateSettingsTestCase">
+    <groups>
+  	<run>
+  		<include name="Regression" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.updateSettingsTestCase"/>
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->

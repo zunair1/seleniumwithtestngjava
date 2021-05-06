@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-21T12:32:25Z" name="Suite" finished-at="2021-04-21T12:33:03Z" duration-ms="38614">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTestCases.successfullUserLogin(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" name="successfullUserLogin" class="MicroAccountingAutomation.Test.LoginTestCases"/>
+        <method signature="LoginTestCases.successfullUserLogout(java.lang.reflect.Method)[pri:2, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" name="successfullUserLogout" class="MicroAccountingAutomation.Test.LoginTestCases"/>
+        <method signature="SignUpTestCases.successfullUserSignUp(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.SignUpTestCases@f736069]" name="successfullUserSignUp" class="MicroAccountingAutomation.Test.SignUpTestCases"/>
+        <method signature="ListAllCsvsTestCase.ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.ListAllCsvsTestCase@169e6180]" name="ViewCsvs" class="MicroAccountingAutomation.Test.ListAllCsvsTestCase"/>
+        <method signature="updateSettingsTestCase.updateUserNameOnSettingsPage(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.updateSettingsTestCase@611889f4]" name="updateUserNameOnSettingsPage" class="MicroAccountingAutomation.Test.updateSettingsTestCase"/>
+        <method signature="UploadCsvsTestCase.uploadCsvsFile(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.UploadCsvsTestCase@6cd28fa7]" name="uploadCsvsFile" class="MicroAccountingAutomation.Test.UploadCsvsTestCase"/>
+        <method signature="SearchCsvsTestCase.ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" name="ViewCsvs" class="MicroAccountingAutomation.Test.SearchCsvsTestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTestCases.successfullUserLogin(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" name="successfullUserLogin" class="MicroAccountingAutomation.Test.LoginTestCases"/>
+        <method signature="LoginTestCases.successfullUserLogout(java.lang.reflect.Method)[pri:2, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" name="successfullUserLogout" class="MicroAccountingAutomation.Test.LoginTestCases"/>
+        <method signature="SignUpTestCases.successfullUserSignUp(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.SignUpTestCases@f736069]" name="successfullUserSignUp" class="MicroAccountingAutomation.Test.SignUpTestCases"/>
+        <method signature="ListAllCsvsTestCase.ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.ListAllCsvsTestCase@169e6180]" name="ViewCsvs" class="MicroAccountingAutomation.Test.ListAllCsvsTestCase"/>
+        <method signature="updateSettingsTestCase.updateUserNameOnSettingsPage(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.updateSettingsTestCase@611889f4]" name="updateUserNameOnSettingsPage" class="MicroAccountingAutomation.Test.updateSettingsTestCase"/>
+        <method signature="UploadCsvsTestCase.uploadCsvsFile(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.UploadCsvsTestCase@6cd28fa7]" name="uploadCsvsFile" class="MicroAccountingAutomation.Test.UploadCsvsTestCase"/>
+        <method signature="SearchCsvsTestCase.ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" name="ViewCsvs" class="MicroAccountingAutomation.Test.SearchCsvsTestCase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-04-21T12:32:25Z" name="LoginTestCases" finished-at="2021-04-21T12:32:30Z" duration-ms="5586">
+      <class name="MicroAccountingAutomation.Test.LoginTestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" started-at="2021-04-21T12:32:25Z" name="Setup" finished-at="2021-04-21T12:32:29Z" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="successfullUserLogin(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" started-at="2021-04-21T12:32:29Z" name="successfullUserLogin" description="Verify that User can login with correct username and password" finished-at="2021-04-21T12:32:29Z" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.LoginTestCases.successfullUserLogin(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullUserLogin -->
+        <test-method signature="successfullUserLogout(java.lang.reflect.Method)[pri:2, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" started-at="2021-04-21T12:32:29Z" name="successfullUserLogout" description="verify that User can successfully logout" finished-at="2021-04-21T12:32:30Z" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.LoginTestCases.successfullUserLogout(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullUserLogout -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.LoginTestCases@49c7b90e]" started-at="2021-04-21T12:32:30Z" name="broweserClosure" finished-at="2021-04-21T12:32:30Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+      </class> <!-- MicroAccountingAutomation.Test.LoginTestCases -->
+    </test> <!-- LoginTestCases -->
+    <test started-at="2021-04-21T12:32:30Z" name="SignUpTestCases" finished-at="2021-04-21T12:32:35Z" duration-ms="4672">
+      <class name="MicroAccountingAutomation.Test.SignUpTestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.SignUpTestCases@f736069]" started-at="2021-04-21T12:32:30Z" name="Setup" finished-at="2021-04-21T12:32:34Z" duration-ms="3536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="successfullUserSignUp(java.lang.reflect.Method)[pri:1, instance:MicroAccountingAutomation.Test.SignUpTestCases@f736069]" started-at="2021-04-21T12:32:34Z" name="successfullUserSignUp" description="Verify that User can SignUp with correct username,password and comfirm password" finished-at="2021-04-21T12:32:35Z" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.SignUpTestCases.successfullUserSignUp(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullUserSignUp -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.SignUpTestCases@f736069]" started-at="2021-04-21T12:32:35Z" name="broweserClosure" finished-at="2021-04-21T12:32:35Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+      </class> <!-- MicroAccountingAutomation.Test.SignUpTestCases -->
+    </test> <!-- SignUpTestCases -->
+    <test started-at="2021-04-21T12:32:35Z" name="ListAllCsvsTestCases" finished-at="2021-04-21T12:32:46Z" duration-ms="10727">
+      <class name="MicroAccountingAutomation.Test.ListAllCsvsTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.ListAllCsvsTestCase@169e6180]" started-at="2021-04-21T12:32:35Z" name="Setup" finished-at="2021-04-21T12:32:44Z" duration-ms="9376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.ListAllCsvsTestCase@169e6180]" started-at="2021-04-21T12:32:44Z" name="ViewCsvs" description="verify that if user can click on View CSVS" finished-at="2021-04-21T12:32:46Z" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.ListAllCsvsTestCase.ViewCsvs(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCsvs -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.ListAllCsvsTestCase@169e6180]" started-at="2021-04-21T12:32:46Z" name="broweserClosure" finished-at="2021-04-21T12:32:46Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+      </class> <!-- MicroAccountingAutomation.Test.ListAllCsvsTestCase -->
+    </test> <!-- ListAllCsvsTestCases -->
+    <test started-at="2021-04-21T12:32:46Z" name="updateSettingsTestCase" finished-at="2021-04-21T12:32:51Z" duration-ms="5202">
+      <class name="MicroAccountingAutomation.Test.updateSettingsTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.updateSettingsTestCase@611889f4]" started-at="2021-04-21T12:32:46Z" name="Setup" finished-at="2021-04-21T12:32:49Z" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="updateUserNameOnSettingsPage(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.updateSettingsTestCase@611889f4]" started-at="2021-04-21T12:32:49Z" name="updateUserNameOnSettingsPage" description="verify that if user can update its username in Settings" finished-at="2021-04-21T12:32:51Z" duration-ms="1660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.updateSettingsTestCase.updateUserNameOnSettingsPage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNameOnSettingsPage -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.updateSettingsTestCase@611889f4]" started-at="2021-04-21T12:32:51Z" name="broweserClosure" finished-at="2021-04-21T12:32:51Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+      </class> <!-- MicroAccountingAutomation.Test.updateSettingsTestCase -->
+    </test> <!-- updateSettingsTestCase -->
+    <test started-at="2021-04-21T12:32:51Z" name="UploadCsvsTestCase" finished-at="2021-04-21T12:32:56Z" duration-ms="5258">
+      <class name="MicroAccountingAutomation.Test.UploadCsvsTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.UploadCsvsTestCase@6cd28fa7]" started-at="2021-04-21T12:32:51Z" name="Setup" finished-at="2021-04-21T12:32:55Z" duration-ms="3627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="uploadCsvsFile(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.UploadCsvsTestCase@6cd28fa7]" started-at="2021-04-21T12:32:55Z" name="uploadCsvsFile" description="verify that if user can upload a csv file" finished-at="2021-04-21T12:32:56Z" duration-ms="1595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.UploadCsvsTestCase.uploadCsvsFile(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCsvsFile -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.UploadCsvsTestCase@6cd28fa7]" started-at="2021-04-21T12:32:56Z" name="broweserClosure" finished-at="2021-04-21T12:32:56Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+      </class> <!-- MicroAccountingAutomation.Test.UploadCsvsTestCase -->
+    </test> <!-- UploadCsvsTestCase -->
+    <test started-at="2021-04-21T12:32:56Z" name="SearchCsvsTestCase" finished-at="2021-04-21T12:33:03Z" duration-ms="6737">
+      <class name="MicroAccountingAutomation.Test.SearchCsvsTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" started-at="2021-04-21T12:32:56Z" name="Setup" finished-at="2021-04-21T12:33:00Z" duration-ms="3356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ViewCsvs(java.lang.reflect.Method)[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" started-at="2021-04-21T12:33:00Z" name="ViewCsvs" description="verify that if user can click on search CSVS" finished-at="2021-04-21T12:33:03Z" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MicroAccountingAutomation.Test.SearchCsvsTestCase.ViewCsvs(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewCsvs -->
+        <test-method is-config="true" signature="broweserClosure()[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" started-at="2021-04-21T12:33:03Z" name="broweserClosure" finished-at="2021-04-21T12:33:03Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broweserClosure -->
+        <test-method is-config="true" signature="sentEmail(java.lang.String, java.lang.String)[pri:0, instance:MicroAccountingAutomation.Test.SearchCsvsTestCase@543588e6]" started-at="2021-04-21T12:33:03Z" name="sentEmail" finished-at="2021-04-21T12:33:07Z" duration-ms="3794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michal2021QA@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microaccounting123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sentEmail -->
+      </class> <!-- MicroAccountingAutomation.Test.SearchCsvsTestCase -->
+    </test> <!-- SearchCsvsTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+from markhobson/maven-chrome as build 
+COPY src /home/micro-accounting/src
+COPY pom.xml /home/micro-accounting
+COPY SmokeTestNG.xml /home/micro-accounting
+COPY testAksam.csv /home/micro-accounting
+RUN mvn -f /home/micro-accounting/pom.xml clean test -DskipTests=true

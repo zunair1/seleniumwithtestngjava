@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name = "email" value="Michal2021QA@gmail.com"/>
+<parameter name = "emailPassword" value="Microaccounting123"/>
+ <listeners>
+         <listener class-name="Utils.Listeners.TestListener"/>
+    </listeners> 
+  <test name="LoginTestCases">
+  <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+    <classes>
+      <class name="MicroAccountingAutomation.Test.LoginTestCases"/>
+      
+    </classes>
+  </test>
+  
+  <test name="SignUpTestCases">
+  <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.SignUpTestCases"/>
+  	</classes>
+  </test>
+  
+    <test name="ListAllCsvsTestCases">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.ListAllCsvsTestCase"/>
+  	</classes>
+  </test>
+  
+  <test name="updateSettingsTestCase">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.updateSettingsTestCase"/>
+  	</classes>
+  </test>
+  
+  <test name="UploadCsvsTestCase">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.UploadCsvsTestCase"/>
+  	</classes>
+  </test>
+  
+  <test name="SearchCsvsTestCase">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.SearchCsvsTestCase"/>
+  	</classes>
+  </test>
+  
+  <!-- <test name="DeleteCsvTestCase">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.DeleteCsvTestCase"/>
+  	</classes>
+  </test> -->
+  
+</suite> <!-- Suite -->
